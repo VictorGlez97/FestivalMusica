@@ -6,7 +6,7 @@
     padding: 5rem 0;
 
     @include m.tablet {
-        @include m.grid( 2, 5 );
+        @include m.grid( 2, 5rem );
     }
 
 }
@@ -17,7 +17,6 @@
     flex-direction: column;
     justify-content: center;
     column-gap: 5rem;
-
     margin-top: 5rem;
 
     @include m.tablet {
